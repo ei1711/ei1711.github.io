@@ -1,0 +1,13 @@
+@font-face {
+    font-family: cica-bold;
+    src: url("../fonts/Cica-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: cica-regular;
+    src: url("../fonts/Cica-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: 'cica-regular';
+}
