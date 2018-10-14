@@ -51,6 +51,22 @@ body {
     font-family: 'mplus-1p-regular';
 }
 
-.color {
-    background-color: #1C1C1C;
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
 }
