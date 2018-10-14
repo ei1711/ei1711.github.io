@@ -26,28 +26,28 @@
                     <tbody>
                         <tr>
                             <th scope="row">1</th>
-                            <td>mv Main.c MyProg.c</td>
+                            <td>$ mv Main.c MyProg.c</td>
                             <td>Just Do it!</td>
                         </tr>
                         <tr>
                             <th scope="row">2</th>
-                            <td>cp /home/pub/practice/alice.txt .</td>
+                            <td>$ cp /home/pub/practice/alice.txt .</td>
                             <td>コピー先のオペランドを忘れることがあるので注意</td>
                         </tr>
                         <tr>
                             <th scope="row">3</th>
-                            <td>cat alice.txt<br>more alice.txt<br>less alice.txt</td>
+                            <td>$ cat alice.txt<br>$ more alice.txt<br>$ less alice.txt</td>
                             <td>他にもいろんなコマンドがあるので調べてみるといいかもしれない</td>
                         </tr>
                         <tr>
                             <th scope="row">4</th>
-                            <td>rm ./*.c</td>
+                            <td>$ rm ./*.c</td>
                             <td>指定を間違えるととんでもないことになる</td>
                         </tr>
                         <tr>
                             <th scope="row">5</th>
-                            <td>find ~ -name "a.out" -type f | xargs -I{} rm {}</td>
-                            <td>find ~ -name "a.out" -type f -exec rm {}\; でもできるけど、対象のファイル(ここでは"a.out")が大量にある場合は xargs の方が速い(動作が違うため)
+                            <td>$ find ~ -name "a.out" -type f | xargs -I{} rm {}</td>
+                            <td>$ find ~ -name "a.out" -type f -exec rm {}\; でもできるけど、対象のファイル(ここでは"a.out")が大量にある場合は xargs の方が速い(動作が違うため)
                         <tr>
                             <th scope="row">6</th>
                             <td>カレントディレクトリを基準としたパスの記述方法</td>
