@@ -1,5 +1,6 @@
 /* フォントに関する設定 */
 @import url("https://fonts.googleapis.com/earlyaccess/mplus1p.css");
+/*
 @font-face {
     font-family: cica-bold;
     src: url("https://ei1711.github.io/fonts/Cica-Bold.ttf") format("truetype");
@@ -9,8 +10,10 @@
     font-family: cica-regular;
     src: url("https://ei1711.github.io/fonts/Cica-Regular.ttf") format("truetype");
 }
+*/
 
 /* 見た目 */
 body {
-    font-family: 'cica-regular';
+    /* font-family: 'cica-regular'; */
+    font-family: 'Mplus 1p';
 }
