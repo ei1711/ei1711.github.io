@@ -55,6 +55,11 @@ body {
     font-family: 'mplus-1p-regular';
 }
 
+/* pタグのフォントサイズ */
+p {
+    font-size: 14pt;
+}
+
 /* リンクの色 */
 a {
     text-decoration: none;
