@@ -44,8 +44,12 @@
     src: url("https://ei1711.github.io/fonts/mplus-1p-thin.ttf") format("truetype");
 }
 
-/* 見た目 */
+/* 全体的な見た目 */
 body {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
     color: white;
     background-color: #1C1C1C;
     font-family: 'mplus-1p-regular';
