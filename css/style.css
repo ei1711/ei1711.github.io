@@ -60,6 +60,11 @@ p {
     font-size: 14pt;
 }
 
+/* 見出しの設定 */
+th {
+    text-align: center;
+}
+
 /* リンクの色 */
 a {
     text-decoration: none;
