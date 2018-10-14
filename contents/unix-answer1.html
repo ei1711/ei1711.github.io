@@ -47,7 +47,7 @@
                         <tr>
                             <th scope="row">5</th>
                             <td>find ~ -name "a.out" -type f | xargs -I{} rm {}</td>
-                            <td>find ~ -name "a.out" -type -exec rm {}\; でもできるけど、対象のファイル(ここでは"a.out")が大量にある場合は xargs の方が速い(動作が違うため)
+                            <td>find ~ -name "a.out" -type f -exec rm {}\; でもできるけど、対象のファイル(ここでは"a.out")が大量にある場合は xargs の方が速い(動作が違うため)
                         <tr>
                             <th scope="row">6</th>
                             <td>カレントディレクトリを基準としたパスの記述方法</td>
@@ -60,23 +60,23 @@
                         </tr>
                         <tr>
                             <th scope="row">8</th>
-                            <td></td>
-                            <td></td>
+                            <td>[絶対パス] /etc<br>[相対パス] ../../../../etc</td>
+                            <td>ディレクトリツリーを見て答えるだけ</td>
                         </tr>
                         <tr>
                             <th scope="row">9</th>
-                            <td></td>
-                            <td></td>
+                            <td>[絶対パス] /home/student/r/r18/r18*<br>[相対パス] ../../r/r18/r18*</td>
+                            <td>ディレクトリツリーを見て答えるだけ</td>
                         </tr>
                         <tr>
                             <th scope="row">10</th>
-                            <td></td>
-                            <td></td>
+                            <td>カレントディレクトリにパスが通っているから</td>
+                            <td>夏休みにこの話しましたよね？</td>
                         </tr>
                         <tr>
                             <th scope="row">11</th>
-                            <td></td>
-                            <td></td>
+                            <td>コマンドがインストールされている場所にパスが通っているから</td>
+                            <td>この話もしましたよ</td>
                         </tr>
                     </tbody>
                 </table>
